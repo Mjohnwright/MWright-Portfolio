@@ -241,3 +241,12 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a{
+  color: white;
+}
