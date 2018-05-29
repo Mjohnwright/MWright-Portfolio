@@ -12,4 +12,4 @@ This is a basic HTML & CSS app.  There is a nav bar at the top that directs the 
   3. <strong>Contact</strong> Gives my contact information including a link to me email address
 
 ### Screenshot
-![Full Size](public/assets/images/ss.png)
+![Full Size](Assets/images/ss.png)
