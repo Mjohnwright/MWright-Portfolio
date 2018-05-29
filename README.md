@@ -2,17 +2,14 @@
 
 ### Overview
 
-A Node, Express, Handlebars, and MySQL burger app that lets users input the names of burgers they'd like to eat... and then they get to devour them! Please check out the launched app on Heroku <strong>[here](https://ancient-reef-11912.herokuapp.com/)</strong>.
+This is a basic portfolio site I built that demostrates front-end development skills.  It was the first project I completed at the University of Pennsylvania coding boot camp.  The CSS was tricky, and as I learned more about it I have made some updates to improve the look of the site.  As I have built more apps, I have added them to the portfolio page.
 
 ### Functionality
-Using an home-grown ORM, the app has 3 basic methods:
-  1. <strong>GET</strong> all entries from the MySQL database and display them to the DOM using Handlebars.
-  2. <strong>PUT</strong> a selected burger by clicking "Devour It", which...
-    * hits a route in Express to change its "devoured" status in the MySQL database
+This is a basic HTML & CSS app.  There is a nav bar at the top that directs the user to the 3 main HTML pages:
+  1. <strong>Home</strong> Provides short biographical information.
+  2. <strong>Portfolio</strong> Lists my completed projects with a link to GutHub
     * re-routes the webpage back to the index, where the burger is now in the devoured column (via Handlebars)
-  3. <strong>POST</strong> a new burger using the "Place Order" form, which...
-    * hits a route in Express to insert a new burger into the MySQL database
-    * re-routes the webpage back to the index, where the burger is now ready to be eaten column (via Handlebars)
+  3. <strong>Contact</strong> Gives my contact information including a link to me email address.(via Handlebars)
 
 ### Screenshot
 ![Full Size](public/assets/image/burger_screen_shot.png)
